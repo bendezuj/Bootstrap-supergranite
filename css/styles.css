@@ -6,9 +6,6 @@ body{
   background-color: #d9455f;
   color: #fff;
 }
-.container-fluid{
-  padding: 3% 15% 10% 15% ;
-}
 h1{
   font-size: 3rem;
   line-height: 1.5;
@@ -64,7 +61,7 @@ h1{
 }
 
 #testimonials{
-  padding: 7% 15% 7% 15%;
+  padding: 6% 15% 2% 15%;
   text-align: center;
   background-color: #d9455f;
   color: #fff;
@@ -79,18 +76,19 @@ h1{
 .testimonial-img {
   border-radius: 100%;
   width: 10%;
-  margin: 2% 3% 0 0;
   text-align: left;
   vertical-align: middle;
 }
-
 #Gallery {
   background-color: #ccafaf;
-  text-align: center;
+  padding-top: 2%;
 }
-
+.carousel-item{
+  padding: 0 15% 4% 15%;
+}
 .gal-title {
-  padding-top: 3rem;
+  padding-top: 1rem;
+  padding-bottom: 3rem;
   text-align: center;
   font-size: 3rem;
   line-height: 1.5;
@@ -100,4 +98,14 @@ h1{
 .gal{
   width:100%;
   border-radius: 20%;
+}
+#footer{
+  vertical-align: middle;
+  background-color: #d9455f;
+  line-height: 2;
+  text-align: center;
+  padding: 25px 0 20px 0;
+  font-family: Montserrat, sans-serif;
+  font-weight: bold;
+  color: black;
 }
